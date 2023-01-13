@@ -7,11 +7,7 @@ function App() {
   return (
     <Shell title="Game Zone">
       <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          gridGap: "1rem",
-        }}
+        className="gamezone"
       >
         <CardPicker />
         <TopNumber />
